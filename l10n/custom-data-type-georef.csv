@@ -21,10 +21,16 @@ custom.data.type.georef.config.parameter.schema.use_geocoder.value.checkbox,Füg
 custom.data.type.georef.modal.form.text.georef_empty,noch keine Georeferenzierung,no georeferencing yet,,
 custom.data.type.georef.config.parameter.schema.allow_textinput_point.value.label,Texteingabe,Textinput,,
 custom.data.type.georef.config.parameter.schema.allow_textinput_linestring.value.label,Texteingabe,Textinput,,
+custom.data.type.georef.config.parameter.schema.allow_textinput_geojson.value.label,Texteingabe,Textinput,,
+custom.data.type.georef.config.parameter.schema.allow_textinput_geojson.value.checkbox,Für GeoJSON erlauben,Allow for GeoJSON,,
 custom.data.type.georef.config.parameter.schema.allow_textinput_polygon.value.label,Texteingabe,Textinput,,
 custom.data.type.georef.config.parameter.schema.allow_textinput_point.value.checkbox,Für POINT erlauben,Allow for POINT,,
 custom.data.type.georef.config.parameter.schema.allow_textinput_linestring.value.checkbox,Für LINESTRING erlauben,Allow for LINESTRING,,
 custom.data.type.georef.config.parameter.schema.allow_textinput_polygon.value.checkbox,Für POLYGON erlauben,Allow for POLYGON,,
+
+custom.data.type.georef.config.parameter.mask.editor_display.value.label,Editor-Ansicht,Editor-Display,,
+custom.data.type.georef.config.option.mask.editor_display.value.default,Standard,Default,,
+custom.data.type.georef.config.option.mask.editor_display.value.condensed,1 Zeile,One-liner,,
 
 custom.data.type.georef.controls.addnew.point.label,POINT,POINT,,
 custom.data.type.georef.add_new.point.header_left,POINT eingeben,POINT input,,

@@ -53,3 +53,9 @@ custom_types:
           parameters:
             value:
               type: bool
+      mask:
+        - name: editor_display
+          parameters:
+            value:
+              type: select
+              options: ["default", "condensed"]
