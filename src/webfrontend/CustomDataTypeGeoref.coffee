@@ -17,6 +17,11 @@ class CustomDataTypeGeoref extends CustomDataTypeWithCommons
     new CustomDataTypeGeorefFacet(opts)
 
   #######################################################################
+   # allows usage of "standard (geo)" in maskoptioons
+  supportsGeoStandard: 
+    ->true 
+
+  #######################################################################
   # show popover and fill it with the form-elements
   showEditPopover: (btn, data, cdata, layout, opts) ->
     that = @
