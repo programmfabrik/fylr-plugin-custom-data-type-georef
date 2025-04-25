@@ -461,16 +461,16 @@ class CustomDataTypeGeoref extends CustomDataTypeWithCommons
                           class: "georefTextInputForm"
                           fields: [
                             form:
-                              label: $$("custom.data.type.georef.add_new.modal.form.latitude")
-                              hint: $$("custom.data.type.georef.add_new.modal.form.latitude.hint")
-                            type: CUI.Input
-                            name: "georef_add_new_point.latitude"
-                          ,
-                            form:
                               label: $$("custom.data.type.georef.add_new.modal.form.longitude")
                               hint: $$("custom.data.type.georef.add_new.modal.form.longitude.hint")
                             type: CUI.Input
                             name: "georef_add_new_point.longitude"
+                          ,
+                            form:
+                              label: $$("custom.data.type.georef.add_new.modal.form.latitude")
+                              hint: $$("custom.data.type.georef.add_new.modal.form.latitude.hint")
+                            type: CUI.Input
+                            name: "georef_add_new_point.latitude"
                           ]
             pointForm.start()
 
