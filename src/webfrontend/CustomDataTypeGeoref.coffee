@@ -461,16 +461,16 @@ class CustomDataTypeGeoref extends CustomDataTypeWithCommons
                           class: "georefTextInputForm"
                           fields: [
                             form:
-                              label: $$("custom.data.type.georef.add_new.modal.form.longitude")
-                              hint: $$("custom.data.type.georef.add_new.modal.form.longitude.hint")
-                            type: CUI.Input
-                            name: "georef_add_new_point.longitude"
-                          ,
-                            form:
                               label: $$("custom.data.type.georef.add_new.modal.form.latitude")
                               hint: $$("custom.data.type.georef.add_new.modal.form.latitude.hint")
                             type: CUI.Input
                             name: "georef_add_new_point.latitude"
+                          ,
+                            form:
+                              label: $$("custom.data.type.georef.add_new.modal.form.longitude")
+                              hint: $$("custom.data.type.georef.add_new.modal.form.longitude.hint")
+                            type: CUI.Input
+                            name: "georef_add_new_point.longitude"
                           ]
             pointForm.start()
 
@@ -502,7 +502,7 @@ class CustomDataTypeGeoref extends CustomDataTypeWithCommons
 
                               if (!isNaN(floatLatitude) && !isNaN(floatLongitude))
                                 # build geojson
-                                pointGeoJSON = '{ "type": "Feature", "properties": {}, "geometry": { "coordinates": [ ' + floatLatitude + ', ' + floatLongitude + ' ], "type": "Point" } }'
+                                pointGeoJSON = '{ "type": "Feature", "properties": {}, "geometry": { "coordinates": [ ' + floatLongitude + ', ' + floatLatitude + ' ], "type": "Point" } }'
                                 # change cdata and apply
                                 cdata.conceptURI = pointGeoJSON
                                 cdata.conceptName = 'Point'
