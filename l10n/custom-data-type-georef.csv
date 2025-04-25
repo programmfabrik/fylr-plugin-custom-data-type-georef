@@ -35,9 +35,9 @@ custom.data.type.georef.config.option.mask.editor_display.value.condensed,1 Zeil
 custom.data.type.georef.controls.addnew.point.label,POINT,POINT,,
 custom.data.type.georef.add_new.point.header_left,POINT eingeben,POINT input,,
 custom.data.type.georef.add_new.modal.form.latitude,Latitude,Latitude,,
-custom.data.type.georef.add_new.modal.form.latitude.hint,"Geographische Breite / Breitengrad.\nBeispiel: 9.95033","Geographic Latitude. Example: 9.95033",,
+custom.data.type.georef.add_new.modal.form.latitude.hint,"Geographische Breite / Breitengrad.\nBeispiel: 51.53723","Geographic Latitude. Example: 51.53723",,
 custom.data.type.georef.add_new.modal.form.longitude,Longitude,Longitude,,
-custom.data.type.georef.add_new.modal.form.longitude.hint,"Geographische Länge / Längengrad.\nBeispiel: 51.53723","Geographic Longitude. Example: 51.53723",,
+custom.data.type.georef.add_new.modal.form.longitude.hint,"Geographische Länge / Längengrad.\nBeispiel: 9.95033","Geographic Longitude. Example: 9.95033",,
 
 custom.data.type.georef.controls.addnew.linestring.label,LINESTRING,LINESTRING,,
 custom.data.type.georef.add_new.linestring.header_left,LINESTRING eingeben,LINESTRING input,,
