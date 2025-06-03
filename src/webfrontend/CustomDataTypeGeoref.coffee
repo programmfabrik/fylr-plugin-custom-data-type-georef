@@ -1,4 +1,4 @@
-class CustomDataTypeGeoref extends CustomDataTypeWithCommons
+class CustomDataTypeGeoref extends CustomDataTypeWithCommonsAsPlugin
 
   #######################################################################
   # return name of plugin
